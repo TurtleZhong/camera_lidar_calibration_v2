@@ -1,0 +1,9 @@
+<launch>
+    <!--Remember to modify the args to you PATH -->
+    <!--Remember to modify the args to you PATH -->
+    <!--Remember to modify the args to you PATH -->
+    <node pkg="camera_laser_calibration" type="corner_detecter" name="corner_detecter"
+          args="$(find camera_laser_calibration)/config/config.yaml" output="screen">
+    </node>
+
+</launch>

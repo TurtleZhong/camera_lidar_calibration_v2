@@ -1,0 +1,50 @@
+/home/m/Downloads/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/m/ws/src/camera_laser_calibration
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/m/ws/src/camera_laser_calibration/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/m/ws/src/camera_laser_calibration/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.11
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /opt/ros/kinetic (found suitable version "3.3.1", minimum required is "3") 
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.2.92 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Performing Test GFLAGS_IN_GOOGLE_NAMESPACE
+-- Performing Test GFLAGS_IN_GOOGLE_NAMESPACE - Success
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/m/ws/src/camera_laser_calibration/cmake-build-debug

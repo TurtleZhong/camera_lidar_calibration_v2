@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: camera_laser_calibration
+Description: Description of camera_laser_calibration
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: 

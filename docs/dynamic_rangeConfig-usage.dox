@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="collect_laserss_image_data" pkg="camera_laser_calibration" type="collect_laserss_image_data">
+  <param name="Info" type="str" value="When you choose Save, it will save the laser_coor and image octomatically!Remember Modify the laser_coor according rviz" />
+  <param name="range_min" type="int" value="-140" />
+  <param name="range_max" type="int" value="140" />
+  <param name="laser_coor" type="str" value="0.0, 0.0" />
+  <param name="Save" type="bool" value="False" />
+</node>
+\endverbatim
+

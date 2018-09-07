@@ -1,0 +1,9 @@
+<launch>
+    <!--args params-->
+    <!--config file path, data used for calibration path, output_path-->
+
+    <node pkg="camera_laser_calibration" type="calibration" name="calibration"
+          args="$(find camera_laser_calibration)/config/config.yaml $(find camera_laser_calibration)/data/data.txt $(find camera_laser_calibration)/data/calibration_result.txt"
+          output="screen">
+    </node>
+</launch>

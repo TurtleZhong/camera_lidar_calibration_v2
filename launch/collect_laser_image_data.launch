@@ -1,0 +1,14 @@
+<launch>
+    <!--Remember to modify the args to you PATH -->
+    <!--Remember to modify the args to you PATH -->
+    <!--Remember to modify the args to you PATH -->
+    <node pkg="camera_laser_calibration" type="collect_laser_image_data" name="collect_laser_image_data"
+          args= "$(find camera_laser_calibration)/config/config.yaml" output="screen">
+    </node>
+    <param name="output_data_path" value="$(find camera_laser_calibration)/data/data_v2.txt"/>
+
+    <param name="image_topic" value="/xp2s/left/image_raw"/>
+    <param name="scan_topic" value="/scan"/>
+    <node pkg="rviz" type="rviz" name="rviz" args=" -d $(find camera_laser_calibration)/rviz/show.rviz" output="screen"/>
+
+</launch>

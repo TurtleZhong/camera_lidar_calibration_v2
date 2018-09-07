@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/m/ws/src/camera_laser_calibration/cmake-build-debug/devel/setup.sh

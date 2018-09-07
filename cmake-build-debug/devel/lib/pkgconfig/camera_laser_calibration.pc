@@ -1,0 +1,8 @@
+prefix=/home/m/ws/src/camera_laser_calibration/cmake-build-debug/devel
+
+Name: camera_laser_calibration
+Description: Description of camera_laser_calibration
+Version: 0.0.0
+Cflags: -I/home/m/ws/src/camera_laser_calibration/cmake-build-debug/devel/include
+Libs: -L/home/m/ws/src/camera_laser_calibration/cmake-build-debug/devel/lib 
+Requires: 

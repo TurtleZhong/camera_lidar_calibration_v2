@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~Info" : \b [str] How to use! min: , default: When you choose Save, it will save the laser_coor and image octomatically!Remember Modify the laser_coor according rviz, max: 
+- \b "~range_min" : \b [int] The min angle of laser min: -140, default: -140, max: 140
+- \b "~range_max" : \b [int] The max angle of laser min: -140, default: 140, max: 140
+- \b "~laser_coor" : \b [str] x y min: , default: 0.0, 0.0, max: 
+- \b "~Save" : \b [bool] Save this data? min: False, default: False, max: True
+
